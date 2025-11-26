@@ -1,5 +1,5 @@
 # app.py
-import sys, json, time
+import sys, json, time, datetime
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 import threading
@@ -9,6 +9,10 @@ from pynput import mouse, keyboard
 import win32clipboard as wcb
 import win32con
 import requests
+import logging
+
+# Setup logging
+logging.basicConfig(filename="debug.log", level=logging.DEBUG, format="%(asctime)s - %(message)s")
 
 # MCP (optional, enabled via config)
 import asyncio
@@ -34,7 +38,7 @@ DEFAULT_CONFIG = {
     },
     "ui": {
         "summary_language": "vi",  # "vi" or "en"
-        "trigger": {"modifier": "shift", "button": "right"},
+        "trigger": {"modifier": "win", "button": "right"},
         "hotkey": "<alt>+q"
     },
     "mcp": {
@@ -161,7 +165,7 @@ class InputListener(QtCore.QObject):
     def __init__(self, cfg: Dict[str, Any]):
         super().__init__()
         self.cfg = cfg
-        self.pressed_mod = {"shift": False, "ctrl": False, "alt": False}
+        self.pressed_mod = {"shift": False, "ctrl": False, "alt": False, "win": False}
         self.running = True
 
     def start(self):
@@ -191,21 +195,29 @@ class InputListener(QtCore.QObject):
         if key == keyboard.Key.shift: self.pressed_mod["shift"] = True
         if key == keyboard.Key.ctrl: self.pressed_mod["ctrl"] = True
         if key == keyboard.Key.alt: self.pressed_mod["alt"] = True
+        if key in (keyboard.Key.cmd, keyboard.Key.cmd_l, keyboard.Key.cmd_r):
+            self.pressed_mod["win"] = True
+            logging.debug(f"Win key pressed: {key}")
 
     def on_release(self, key):
         if key == keyboard.Key.shift: self.pressed_mod["shift"] = False
         if key == keyboard.Key.ctrl: self.pressed_mod["ctrl"] = False
         if key == keyboard.Key.alt: self.pressed_mod["alt"] = False
+        if key in (keyboard.Key.cmd, keyboard.Key.cmd_l, keyboard.Key.cmd_r):
+            self.pressed_mod["win"] = False
+            logging.debug(f"Win key released: {key}")
 
     def on_click(self, x, y, button, pressed):
         if not pressed: return
         
         trigger_cfg = self.cfg.get("ui", {}).get("trigger", {})
-        target_mod = trigger_cfg.get("modifier", "shift")
+        target_mod = trigger_cfg.get("modifier", "win")
         target_btn = trigger_cfg.get("button", "right")
         
         is_right = (button == mouse.Button.right)
         is_mod_ok = self.pressed_mod.get(target_mod, False)
+        
+        logging.debug(f"Click: {button}, Pressed: {pressed}, Mods: {self.pressed_mod}, Target: {target_mod}+{target_btn}")
 
         # Check condition
         if target_btn == "right" and is_right and is_mod_ok:
@@ -262,6 +274,8 @@ class PopupPanel(QtWidgets.QWidget):
         self.callback = callback
         self.move(pos)
         self.show()
+        self.activateWindow()
+        self.raise_()
 
         # Kết nối signals (đơn giản hoá)
         self.btnSummary.clicked.connect(lambda: self._do("summary"))
@@ -597,8 +611,11 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         btns.addWidget(btnCopy); btns.addWidget(btnSave); btns.addWidget(btnClose); lay.addLayout(btns)
         btnCopy.clicked.connect(lambda: self._copy_to_clipboard(txt.toPlainText()))
         def save_file():
-            path, _ = QtWidgets.QFileDialog.getSaveFileName(w, "Lưu kết quả", "summary.txt", "Text (*.txt)")
-            if path: Path(path).write_text(txt.toPlainText(), encoding="utf-8")
+            default_name = f"summary_{datetime.datetime.now().strftime('%d_%m_%Y')}.txt"
+            path, _ = QtWidgets.QFileDialog.getSaveFileName(w, "Lưu kết quả", default_name, "Text (*.txt)")
+            if path:
+                content_with_date = f"Date: {datetime.datetime.now().strftime('%d/%m/%Y')}\n\n{txt.toPlainText()}"
+                Path(path).write_text(content_with_date, encoding="utf-8")
         btnSave.clicked.connect(save_file); btnClose.clicked.connect(w.accept)
         w.resize(640, 420); w.exec()
 
@@ -643,5 +660,6 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
 # -------- main ----------
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
+    app.setQuitOnLastWindowClosed(False)
     tray = TrayApp(app)
     sys.exit(app.exec())

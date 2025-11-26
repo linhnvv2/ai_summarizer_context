@@ -15,7 +15,7 @@
   "ui": {
     "summary_language": "vi",
     "trigger": {
-      "modifier": "shift",
+      "modifier": "win",
       "button": "right"
     }
   },
