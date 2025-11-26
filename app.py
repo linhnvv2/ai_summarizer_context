@@ -59,6 +59,12 @@ DEFAULT_CONFIG = {
 class ProviderBase:
     def summarize(self, text: str, cfg: Dict[str, Any]) -> str:
         raise NotImplementedError()
+    
+    def chat(self, messages: List[Dict[str, str]], cfg: Dict[str, Any]) -> str:
+        """Chat with LLM using message history.
+        messages = [{"role": "system"|"user"|"assistant", "content": "..."}]
+        """
+        raise NotImplementedError()
 
 class OllamaProvider(ProviderBase):
     def summarize(self, text: str, cfg: Dict[str, Any]) -> str:
@@ -92,6 +98,27 @@ class OllamaProvider(ProviderBase):
         r.raise_for_status()
         data = r.json()
         return data.get("response", "").strip()
+    
+    def chat(self, messages: List[Dict[str, str]], cfg: Dict[str, Any]) -> str:
+        endpoint = cfg["endpoint"].rstrip("/")
+        model = cfg["model"]
+        temperature = cfg.get("temperature", 0.2)
+        max_tokens = cfg.get("max_tokens", 1024)
+        
+        payload = {
+            "model": model,
+            "messages": messages,
+            "stream": False,
+            "options": {
+                "temperature": temperature,
+                "num_predict": max_tokens
+            }
+        }
+        url = f"{endpoint}/api/chat"
+        r = requests.post(url, json=payload, timeout=120)
+        r.raise_for_status()
+        data = r.json()
+        return data.get("message", {}).get("content", "").strip()
 
 class LMStudioProvider(ProviderBase):
     def summarize(self, text: str, cfg: Dict[str, Any]) -> str:
@@ -114,6 +141,28 @@ class LMStudioProvider(ProviderBase):
             {"role": "system", "content": sys_prompt},
             {"role": "user", "content": text}
         ]
+        url = f"{base}/chat/completions"
+        payload = {
+            "model": model,
+            "messages": messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+            "stream": False,
+        }
+        r = requests.post(url, json=payload, timeout=120)
+        r.raise_for_status()
+        data = r.json()
+        try:
+            return data["choices"][0]["message"]["content"].strip()
+        except Exception:
+            return json.dumps(data, ensure_ascii=False)
+    
+    def chat(self, messages: List[Dict[str, str]], cfg: Dict[str, Any]) -> str:
+        base = cfg["endpoint"].rstrip("/")
+        model = cfg["model"]
+        temperature = cfg.get("temperature", 0.2)
+        max_tokens = cfg.get("max_tokens", 1024)
+        
         url = f"{base}/chat/completions"
         payload = {
             "model": model,
@@ -260,14 +309,24 @@ class PopupPanel(QtWidgets.QWidget):
         self.btnSummary = QtWidgets.QPushButton("📝 Tóm tắt")
         self.btnExplain = QtWidgets.QPushButton("🤔 Giải thích")
         self.btnTranslate = QtWidgets.QPushButton("🌐 Dịch (vi↔en)")
+        self.btnRewrite = QtWidgets.QPushButton("✍️ Viết lại")
         self.btnCustom = QtWidgets.QPushButton("⚙️ Prompt tùy biến")
+        self.btnClose = QtWidgets.QPushButton("❌ Đóng")
 
-        for b in (self.btnSummary, self.btnExplain, self.btnTranslate, self.btnCustom):
+        for b in (self.btnSummary, self.btnExplain, self.btnTranslate, self.btnRewrite, self.btnCustom, self.btnClose):
             b.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
             self.layout().addWidget(b)
 
         self.textOriginal = ""
         self.callback = None
+        
+        # Kết nối signals một lần duy nhất trong __init__ để tránh kết nối nhiều lần
+        self.btnSummary.clicked.connect(lambda: self._do("summary"))
+        self.btnExplain.clicked.connect(lambda: self._do("explain"))
+        self.btnTranslate.clicked.connect(lambda: self._do("translate"))
+        self.btnRewrite.clicked.connect(lambda: self._do("rewrite"))
+        self.btnCustom.clicked.connect(lambda: self._do("custom"))
+        self.btnClose.clicked.connect(self.hide)
 
     def show_at_cursor(self, pos: QtCore.QPoint, text: str, callback):
         self.textOriginal = text
@@ -276,12 +335,6 @@ class PopupPanel(QtWidgets.QWidget):
         self.show()
         self.activateWindow()
         self.raise_()
-
-        # Kết nối signals (đơn giản hoá)
-        self.btnSummary.clicked.connect(lambda: self._do("summary"))
-        self.btnExplain.clicked.connect(lambda: self._do("explain"))
-        self.btnTranslate.clicked.connect(lambda: self._do("translate"))
-        self.btnCustom.clicked.connect(lambda: self._do("custom"))
 
     def _do(self, action: str):
         self.hide()
@@ -464,25 +517,44 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
 
         self.popup = PopupPanel()
         self.provider = self._make_provider()
+        self.chat_window = None
 
-        actProvO = self.menu.addAction("Provider: Ollama")
-        actProvL = self.menu.addAction("Provider: LM Studio")
+        # Unified Menu (cả left/right click)
+        # Chat
+        actChat = self.menu.addAction("💬 Mở Chat")
         self.menu.addSeparator()
-        actMcpPanel = self.menu.addAction("MCP: Panel chọn server/tool")
-        actMcpTools = self.menu.addAction("MCP: Liệt kê tools")
+        
+        # Provider Submenu
+        menuProvider = self.menu.addMenu("🔄 Provider")
+        self.actProvOllama = menuProvider.addAction("🦙 Ollama")
+        self.actProvOllama.setCheckable(True)
+        self.actProvLM = menuProvider.addAction("🏠 LM Studio")
+        self.actProvLM.setCheckable(True)
+        # Future: self.actProvOpenAI = menuProvider.addAction("🤖 OpenAI")
+        self._update_provider_checkmarks()
+        
         self.menu.addSeparator()
-        actCfg = self.menu.addAction("Cấu hình…")
-        actQuit = self.menu.addAction("Thoát")
+        
+        # MCP
+        actMcpPanel = self.menu.addAction("📎 MCP Tools")
+        actMcpTools = self.menu.addAction("📋 Liệt kê MCP Tools")
+        self.menu.addSeparator()
+        
+        # Settings
+        actCfg = self.menu.addAction("⚙️ Cấu hình…")
+        actQuit = self.menu.addAction("❌ Thoát")
 
-        actProvO.triggered.connect(lambda: self._set_provider("ollama"))
-        actProvL.triggered.connect(lambda: self._set_provider("lmstudio"))
+        # Connect signals
+        actChat.triggered.connect(self._open_chat_window)
+        self.actProvOllama.triggered.connect(lambda: self._set_provider("ollama"))
+        self.actProvLM.triggered.connect(lambda: self._set_provider("lmstudio"))
         actCfg.triggered.connect(self._open_config_dialog)
         actQuit.triggered.connect(lambda: self.app.quit())
         actMcpPanel.triggered.connect(self._open_mcp_panel)
         actMcpTools.triggered.connect(self._show_mcp_tools)
 
         self.setContextMenu(self.menu)
-        self.setToolTip("AI Summarizer (Shift + Right Click để tóm tắt)")
+        self._update_tooltip()
         self.show()
 
         # MCP init
@@ -508,6 +580,32 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         self.cfg["provider"] = name
         save_config(self.cfg)
         self.provider = self._make_provider()
+        self._update_provider_checkmarks()
+        self._update_tooltip()
+        self.showMessage("Provider Changed", f"Đang dùng: {name.title()}", 
+                        QtWidgets.QSystemTrayIcon.Information, 2000)
+    
+    def _update_provider_checkmarks(self):
+        current = self.cfg["provider"]
+        self.actProvOllama.setChecked(current == "ollama")
+        self.actProvLM.setChecked(current == "lmstudio")
+    
+    def _update_tooltip(self):
+        provider = self.cfg["provider"].title()
+        self.setToolTip(f"AI Summarizer\nProvider: {provider}\nShift+Right Click để tóm tắt")
+    
+    def _open_chat_window(self):
+        if not self.chat_window:
+            # Import here to avoid circular dependency
+            from chat_window import ChatWindow
+            self.chat_window = ChatWindow(
+                provider=self.provider,
+                mcp_manager=self.mcp,
+                config=self.cfg
+            )
+        self.chat_window.show()
+        self.chat_window.activateWindow()
+        self.chat_window.raise_()
 
     def _make_provider(self) -> ProviderBase:
         if self.cfg["provider"] == "lmstudio":
@@ -572,6 +670,9 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         return None
 
     def _handle_action(self, action: str, text: str):
+        # Lưu văn bản gốc cho action translate
+        original_text = text
+        
         # Bơm ngữ cảnh MCP nếu có
         if self.mcp_context:
             text = (text + "\n\n---\nNgữ cảnh MCP:\n" + self.mcp_context).strip()
@@ -587,7 +688,16 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
             result = self._call_provider(lambda: self.provider.summarize(t2, cfg))
         elif action == "translate":
             t2 = f"Dịch nội dung sau sang tiếng Việt, giữ thuật ngữ:\n\n{text}" if cfg["summary_language"] == "vi" else f"Translate the following to English, preserve terms:\n\n{text}"
-            result = self._call_provider(lambda: self.provider.summarize(t2, cfg))
+            translation = self._call_provider(lambda: self.provider.summarize(t2, cfg))
+            # Format kết quả: Văn bản gốc + Bản dịch
+            separator = "=" * 60
+            result = f"📄 VĂN BẢN GỐC:\n{separator}\n{original_text}\n\n🌐 BẢN DỊCH:\n{separator}\n{translation}"
+        elif action == "rewrite":
+            t2 = f"Hãy viết lại văn bản sau cho rõ ràng hơn, mạch lạc hơn, chuyên nghiệp hơn nhưng giữ nguyên ý nghĩa:\n\n{text}" if cfg["summary_language"] == "vi" else f"Rewrite the following text to be clearer, more coherent, and more professional while preserving the original meaning:\n\n{text}"
+            rewritten = self._call_provider(lambda: self.provider.summarize(t2, cfg))
+            # Format kết quả: Văn bản gốc + Bản viết lại
+            separator = "=" * 60
+            result = f"📄 VĂN BẢN GỐC:\n{separator}\n{original_text}\n\n✍️ BẢN VIẾT LẠI:\n{separator}\n{rewritten}"
         else:
             prompt, ok = QtWidgets.QInputDialog.getMultiLineText(None, "Prompt tùy biến", "Nhập prompt (ứng dụng sẽ chèn nội dung đã chọn phía dưới):", "Hãy tóm tắt ngắn gọn, dùng bullet, giữ từ khóa…")
             if not ok: return
@@ -611,10 +721,10 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         btns.addWidget(btnCopy); btns.addWidget(btnSave); btns.addWidget(btnClose); lay.addLayout(btns)
         btnCopy.clicked.connect(lambda: self._copy_to_clipboard(txt.toPlainText()))
         def save_file():
-            default_name = f"summary_{datetime.datetime.now().strftime('%d_%m_%Y')}.txt"
+            default_name = f"summary_{datetime.datetime.now().strftime('%d_%m_%Y_%H_%M')}.txt"
             path, _ = QtWidgets.QFileDialog.getSaveFileName(w, "Lưu kết quả", default_name, "Text (*.txt)")
             if path:
-                content_with_date = f"Date: {datetime.datetime.now().strftime('%d/%m/%Y')}\n\n{txt.toPlainText()}"
+                content_with_date = f"Date: {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')}\n\n{txt.toPlainText()}"
                 Path(path).write_text(content_with_date, encoding="utf-8")
         btnSave.clicked.connect(save_file); btnClose.clicked.connect(w.accept)
         w.resize(640, 420); w.exec()

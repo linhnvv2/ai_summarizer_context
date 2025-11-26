@@ -15,9 +15,10 @@
   "ui": {
     "summary_language": "vi",
     "trigger": {
-      "modifier": "shift",
+      "modifier": "ctrl",
       "button": "right"
-    }
+    },
+    "hotkey": "<alt>+q"
   },
   "mcp": {
     "enabled": true,

@@ -6,7 +6,7 @@
 - **Tích hợp MCP**: chọn server/tool, chạy tool (filesystem, web, DB…), lấy kết quả làm **ngữ cảnh** trước khi tóm tắt.
 
 ## Tính năng
-- Popup hành động cạnh con trỏ: Tóm tắt, Giải thích, Dịch, Prompt tuỳ biến.
+- Popup hành động cạnh con trỏ: Tóm tắt, Giải thích, Dịch, Viết lại, Prompt tuỳ biến.
 - Provider: **Ollama** (`/api/generate`) hoặc **LM Studio** (OpenAI-compatible `/v1/chat/completions`).
 - **MCP Panel**: liệt kê servers/tools, nhập args JSON, chạy tool và chèn kết quả vào prompt.
 - Bảo mật: Mặc định chỉ gọi endpoint **local** và MCP servers cục bộ.
@@ -86,7 +86,7 @@ Ví dụ **Filesystem server** qua `npx` (Node.js):
 1. Chạy `python app.py` (hoặc mở `dist/app.exe`).
 2. Biểu tượng máy tính xuất hiện ở **system tray**.
 3. Bôi đen văn bản → giữ **Shift** → **Click chuột phải**.
-4. Chọn hành động: Tóm tắt / Giải thích / Dịch / Prompt.
+4. Chọn hành động: Tóm tắt / Giải thích / Dịch / Viết lại / Prompt.
 5. Để thêm ngữ cảnh từ MCP:
    - Mở menu tray → **MCP: Panel chọn server/tool**.
    - Chọn **server**, **tool**, nhập **args JSON** → **Chạy tool**.

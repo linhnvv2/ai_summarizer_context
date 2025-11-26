@@ -1,0 +1,753 @@
+2025-11-26 22:45:44,475 - Using proactor: IocpProactor
+2025-11-26 22:45:48,156 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:49,100 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:50,411 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:51,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:52,485 - Win key pressed: Key.cmd
+2025-11-26 22:45:52,883 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': True}, Target: ctrl+right
+2025-11-26 22:45:52,995 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,027 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,057 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,089 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,120 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,151 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,183 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,214 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,261 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,291 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,324 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,355 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,385 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,416 - Win key pressed: Key.cmd
+2025-11-26 22:45:53,434 - Win key released: Key.cmd
+2025-11-26 22:45:54,059 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:54,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:56,555 - Click: Button.right, Pressed: True, Mods: {'shift': True, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:57,731 - Click: Button.right, Pressed: True, Mods: {'shift': True, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:45:59,396 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:00,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:04,779 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:06,251 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:07,454 - Win key pressed: Key.cmd
+2025-11-26 22:46:07,667 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': True}, Target: ctrl+right
+2025-11-26 22:46:07,960 - Win key pressed: Key.cmd
+2025-11-26 22:46:07,991 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,022 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,053 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,086 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,134 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,165 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,197 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,228 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,260 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,291 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,322 - Win key pressed: Key.cmd
+2025-11-26 22:46:08,333 - Win key released: Key.cmd
+2025-11-26 22:46:08,681 - Win key pressed: Key.cmd
+2025-11-26 22:46:09,032 - Win key released: Key.cmd
+2025-11-26 22:46:09,331 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:10,763 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:11,628 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,137 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,169 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,200 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,231 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,261 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,308 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,339 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,371 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,401 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,433 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,464 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,495 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,527 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,547 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': True}, Target: ctrl+right
+2025-11-26 22:46:12,565 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,605 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,637 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,668 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,697 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,728 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,760 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,791 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,822 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,869 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,901 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,931 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,962 - Win key pressed: Key.cmd
+2025-11-26 22:46:12,994 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,025 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,057 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,088 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,119 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,166 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,199 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,230 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,262 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,292 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,324 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,355 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,386 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,418 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,450 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,496 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,527 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,557 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,588 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,621 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,651 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,682 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,714 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,760 - Win key pressed: Key.cmd
+2025-11-26 22:46:13,787 - Win key released: Key.cmd
+2025-11-26 22:46:14,307 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:15,036 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:16,403 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:17,843 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:18,283 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:19,443 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:22,067 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:29,859 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:32,027 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:32,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:32,963 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:34,779 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:35,371 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:36,923 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:39,155 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:41,083 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:41,963 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:45,139 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:46,035 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:48,494 - Win key pressed: Key.cmd
+2025-11-26 22:46:49,828 - Win key released: Key.cmd
+2025-11-26 22:46:50,115 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:51,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:52,868 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:54,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:55,531 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:46:59,380 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:00,347 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:04,723 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:05,868 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:07,299 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:09,315 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:10,179 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:11,499 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:14,915 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:16,635 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:47:20,395 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:18,871 - Using proactor: IocpProactor
+2025-11-26 22:50:26,651 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:28,411 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:31,315 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:31,995 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:34,635 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:35,907 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:37,068 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:39,209 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:39,210 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:41,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:42,376 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:42,379 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:44,096 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:44,098 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:46,147 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:46,277 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:50:47,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:50,541 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1801
+2025-11-26 22:50:52,611 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:50:52,757 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:50:53,950 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1800
+2025-11-26 22:50:55,963 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:01,083 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:03,811 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:05,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:08,358 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:08,359 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:12,747 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:12,869 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:51:13,546 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1235
+2025-11-26 22:51:14,867 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:14,979 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:51:15,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:15,712 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1268
+2025-11-26 22:51:17,908 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:18,492 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:19,075 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:19,214 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:51:20,148 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1288
+2025-11-26 22:51:22,003 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:23,376 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:23,378 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:25,259 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:26,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:28,674 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:28,679 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:30,224 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:30,227 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:30,451 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:31,052 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:31,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:31,915 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:32,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:32,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:33,283 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:34,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:36,203 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:38,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:42,819 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:45,715 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:51:45,835 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:51:48,597 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:00,979 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:01,072 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:01,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:03,067 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:03,381 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:04,499 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:04,589 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:06,347 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:06,369 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:07,363 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:07,480 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:08,211 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:08,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:09,314 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:10,379 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:10,497 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:12,259 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:13,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:13,380 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:15,147 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:15,787 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:15,894 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:16,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:17,951 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:19,955 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:20,057 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:20,515 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:23,358 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:25,419 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:26,571 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:26,690 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:28,356 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:29,403 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:30,435 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:31,027 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:31,155 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:34,402 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:34,483 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:37,123 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:37,219 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:52:40,343 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:52:41,243 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:44,451 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:45,659 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:47,323 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:48,507 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:55,115 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:52:59,867 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:00,015 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:02,173 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:07,891 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:08,025 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:10,721 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:12,419 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:12,516 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:15,097 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:16,763 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:16,928 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:19,521 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:21,052 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:22,251 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:26,987 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:28,387 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:28,523 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:31,074 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:31,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:32,083 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:32,691 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:34,559 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:35,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:35,691 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:37,571 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:38,184 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:39,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:39,314 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:53:40,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:41,800 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:53:43,691 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:45,443 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:46,971 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:47,923 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:52,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:53,651 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:54,963 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:55,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:53:59,131 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:01,467 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:02,539 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:05,043 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:05,979 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:06,451 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:09,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:14,075 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:21,052 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:21,435 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:28,020 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:33,412 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:35,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:35,843 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:54:39,118 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:54:40,900 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:43,980 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:44,099 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:54:47,014 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:54:47,259 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:47,770 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:54:48,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:49,979 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:50,553 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:54:51,923 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:52,031 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:54:53,515 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:54,811 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:54:54,820 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:55,332 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:56,659 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:54:57,419 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:01,156 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:01,907 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:02,308 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:11,715 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:15,236 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:16,259 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:16,395 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:19,283 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:20,507 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:20,980 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:21,098 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:23,907 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:25,124 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:25,250 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:26,211 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:27,968 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:28,891 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:29,024 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:30,035 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:30,511 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:32,419 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:38,124 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:38,356 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:39,811 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:40,851 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:41,018 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:42,036 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:42,163 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:43,369 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:44,539 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:44,651 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:45,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:45,585 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:46,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:46,877 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:47,818 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:48,404 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:48,555 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:55:50,661 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:55:51,476 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:55:59,468 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:02,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:03,940 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:05,060 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:06,419 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:06,591 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:56:08,409 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-26 22:56:14,603 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:18,108 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:19,531 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:20,580 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:21,100 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:21,604 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:21,891 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:22,132 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:22,347 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:22,643 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:22,907 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:23,131 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:23,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:23,539 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:23,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:23,972 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:25,132 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:25,716 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:26,140 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:31,448 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:31,450 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:31,459 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:31,466 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:33,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:34,444 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:36,166 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:38,749 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:38,751 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:38,754 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:38,755 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:41,068 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:41,205 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:56:41,871 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1055
+2025-11-26 22:56:48,563 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:48,718 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:56:49,553 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1108
+2025-11-26 22:56:51,132 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:51,282 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:56:51,884 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1053
+2025-11-26 22:56:52,732 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:52,849 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:56:54,504 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1788
+2025-11-26 22:56:55,452 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:55,568 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:56:56,576 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1390
+2025-11-26 22:56:58,804 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:56:58,945 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:00,315 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:00,460 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1706
+2025-11-26 22:57:01,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:02,355 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:02,582 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:02,931 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:03,274 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1107
+2025-11-26 22:57:03,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:04,170 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:04,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:04,924 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1145
+2025-11-26 22:57:05,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:05,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:06,408 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:07,665 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1108
+2025-11-26 22:57:08,308 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:08,485 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:08,803 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:09,006 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1000
+2025-11-26 22:57:09,347 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:09,830 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:10,899 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:11,641 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1934
+2025-11-26 22:57:12,987 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:13,138 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:13,651 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1000
+2025-11-26 22:57:13,867 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:14,956 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:15,204 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:15,404 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:16,604 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:20,596 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:20,597 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:20,598 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:20,599 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:24,805 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:26,362 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:26,363 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:26,365 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:26,366 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:27,798 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:29,929 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:29,930 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:29,931 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:29,932 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:31,064 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:31,066 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:31,070 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:31,073 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:35,180 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:36,668 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:39,228 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:39,373 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:40,452 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1398
+2025-11-26 22:57:41,404 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:41,530 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:42,303 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1236
+2025-11-26 22:57:42,988 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:43,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:44,075 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:45,085 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1372
+2025-11-26 22:57:45,900 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:46,828 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:48,139 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:48,256 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:49,635 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:49,839 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1727
+2025-11-26 22:57:51,123 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:57:51,250 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:57:52,031 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1234
+2025-11-26 22:57:52,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:22,163 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:23,315 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:23,971 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:24,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:26,459 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:29,331 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:46,955 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:48,620 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:49,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:50,523 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:55,164 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:56,515 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:58,211 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:58:59,011 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:06,459 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:14,803 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:20,528 - Using proactor: IocpProactor
+2025-11-26 22:59:23,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:23,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:25,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:25,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:25,316 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 22:59:26,225 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1203
+2025-11-26 22:59:27,155 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:27,155 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:28,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:28,708 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:30,260 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:30,260 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:32,195 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:32,195 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:34,315 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:34,316 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:39,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:39,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:40,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:40,884 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:41,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:41,588 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:42,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:42,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:46,571 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:46,571 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:47,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:47,548 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:48,099 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:48,100 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:49,652 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:49,652 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:50,611 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:50,612 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:51,659 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:51,660 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:57,619 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 22:59:57,619 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,390 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,390 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,391 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,391 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,397 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,397 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,408 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:01,408 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:05,116 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:05,116 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:05,277 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:00:05,881 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 977
+2025-11-26 23:00:10,859 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:10,860 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:17,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:17,188 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:18,739 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:18,740 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:19,571 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:19,571 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:20,803 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:20,804 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:20,931 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:00:21,819 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1210
+2025-11-26 23:00:23,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:23,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:24,084 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:00:24,856 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1213
+2025-11-26 23:00:25,107 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:25,107 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:26,899 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:26,900 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:27,379 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:27,379 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:27,854 - Win key pressed: Key.cmd
+2025-11-26 23:00:27,855 - Win key pressed: Key.cmd
+2025-11-26 23:00:28,334 - Win key released: Key.cmd
+2025-11-26 23:00:28,334 - Win key released: Key.cmd
+2025-11-26 23:00:28,643 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:28,643 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:38,027 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:00:38,028 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:11,035 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:11,036 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:13,347 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:13,347 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:15,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:15,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:16,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:16,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:19,003 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:19,005 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:19,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:19,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:28,923 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:28,924 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:32,156 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:32,156 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:32,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:32,588 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:33,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:33,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:34,747 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:34,747 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:35,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:35,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:43,604 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:43,605 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:46,267 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:46,267 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:56,492 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:56,492 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:59,920 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:59,920 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:59,921 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:01:59,921 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:02,267 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:02,268 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:03,267 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:03,267 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:04,491 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:04,492 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:08,823 - Win key pressed: Key.cmd
+2025-11-26 23:02:08,824 - Win key pressed: Key.cmd
+2025-11-26 23:02:08,906 - Win key released: Key.cmd
+2025-11-26 23:02:08,906 - Win key released: Key.cmd
+2025-11-26 23:02:09,536 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:09,536 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:09,537 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:09,537 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:09,554 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:09,554 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:09,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:09,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,020 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,021 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,719 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,719 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,719 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,720 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,720 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,721 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,721 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,721 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,982 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,982 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,985 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:10,985 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,569 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,570 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,573 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,573 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,970 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,970 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,988 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:11,988 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,137 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,137 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,138 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,138 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,140 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,141 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,141 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,141 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,353 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,354 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,355 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,355 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,369 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,370 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,370 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,370 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,819 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,820 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,822 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:12,822 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,503 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,504 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,506 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,506 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,712 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,712 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,713 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:13,713 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,070 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,070 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,088 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,088 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,236 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,236 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,237 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,237 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,237 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,237 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,238 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,238 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,406 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,406 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,406 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,407 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,409 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,409 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,409 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,409 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,606 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,606 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,608 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,609 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,816 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,816 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,819 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:14,819 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:15,028 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:15,028 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:15,031 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:15,032 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:15,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:15,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:16,675 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:16,676 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:17,940 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:17,940 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:18,064 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:02:18,932 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1264
+2025-11-26 23:02:18,987 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:18,987 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:21,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:21,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:24,115 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:24,116 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:24,248 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:02:25,208 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1367
+2025-11-26 23:02:26,995 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:26,995 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:27,095 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:02:28,058 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1391
+2025-11-26 23:02:28,963 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:28,964 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:29,080 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:02:29,771 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1254
+2025-11-26 23:02:30,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:30,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:30,655 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:02:31,488 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1380
+2025-11-26 23:02:32,331 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:32,332 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:32,462 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:02:33,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:33,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:33,327 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1380
+2025-11-26 23:02:34,235 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-26 23:02:34,374 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-26 23:02:35,111 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1266
+2025-11-26 23:02:37,419 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right

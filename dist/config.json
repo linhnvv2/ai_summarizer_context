@@ -15,7 +15,7 @@
   "ui": {
     "summary_language": "vi",
     "trigger": {
-      "modifier": "win",
+      "modifier": "ctrl",
       "button": "right"
     }
   },
@@ -29,7 +29,7 @@
           "@modelcontextprotocol/server-filesystem"
         ],
         "env": {
-          "ROOT_PATH": "C:/Users/YourUser/Documents"
+          "ROOT_PATH": "C:/Users/vL/Documents"
         }
       }
     ]
