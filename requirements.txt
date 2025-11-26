@@ -1,0 +1,6 @@
+PySide6
+pynput
+pywin32
+requests
+mcp[cli]
+python-dotenv

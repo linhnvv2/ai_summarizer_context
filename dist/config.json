@@ -1,0 +1,37 @@
+{
+  "provider": "ollama",
+  "ollama": {
+    "endpoint": "http://127.0.0.1:11434",
+    "model": "gemma:2b",
+    "temperature": 0.2,
+    "max_tokens": 1024
+  },
+  "lmstudio": {
+    "endpoint": "http://127.0.0.1:1234/v1",
+    "model": "Meta-Llama-3.1-8B-Instruct-Q4_K_M",
+    "temperature": 0.2,
+    "max_tokens": 1024
+  },
+  "ui": {
+    "summary_language": "vi",
+    "trigger": {
+      "modifier": "shift",
+      "button": "right"
+    }
+  },
+  "mcp": {
+    "enabled": true,
+    "servers": [
+      {
+        "name": "filesystem",
+        "command": "npx",
+        "args": [
+          "@modelcontextprotocol/server-filesystem"
+        ],
+        "env": {
+          "ROOT_PATH": "C:/Users/YourUser/Documents"
+        }
+      }
+    ]
+  }
+}
