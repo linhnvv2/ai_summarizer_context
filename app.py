@@ -15,10 +15,15 @@ import logging
 logging.basicConfig(filename="debug.log", level=logging.DEBUG, format="%(asctime)s - %(message)s")
 
 # MCP (optional, enabled via config)
+# MCP (optional, enabled via config)
 import asyncio
-from contextlib import AsyncExitStack
-from mcp import ClientSession, StdioServerParameters
-from mcp.client.stdio import stdio_client
+# from contextlib import AsyncExitStack
+# from mcp import ClientSession, StdioServerParameters
+# from mcp.client.stdio import stdio_client
+
+from mcp_manager import MCPManager
+from ui_components import PopupPanel, MCPPanel
+from chat_window import ChatWindow
 
 CONFIG_PATH = Path("config.json")
 
@@ -63,6 +68,12 @@ class ProviderBase:
     def chat(self, messages: List[Dict[str, str]], cfg: Dict[str, Any]) -> str:
         """Chat with LLM using message history.
         messages = [{"role": "system"|"user"|"assistant", "content": "..."}]
+        """
+        raise NotImplementedError()
+    
+    def chat_stream(self, messages: List[Dict[str, str]], cfg: Dict[str, Any]):
+        """Stream chat response from LLM.
+        Yields: {"type": "thinking"|"content", "text": "..."}
         """
         raise NotImplementedError()
 
@@ -119,6 +130,33 @@ class OllamaProvider(ProviderBase):
         r.raise_for_status()
         data = r.json()
         return data.get("message", {}).get("content", "").strip()
+    
+    def chat_stream(self, messages: List[Dict[str, str]], cfg: Dict[str, Any]):
+        endpoint = cfg["endpoint"].rstrip("/")
+        model = cfg["model"]
+        temperature = cfg.get("temperature", 0.2)
+        max_tokens = cfg.get("max_tokens", 1024)
+        
+        payload = {
+            "model": model,
+            "messages": messages,
+            "stream": True,
+            "options": {
+                "temperature": temperature,
+                "num_predict": max_tokens
+            }
+        }
+        url = f"{endpoint}/api/chat"
+        
+        with requests.post(url, json=payload, stream=True, timeout=120) as r:
+            r.raise_for_status()
+            for line in r.iter_lines():
+                if line:
+                    data = json.loads(line)
+                    if "message" in data:
+                        content = data["message"].get("content", "")
+                        if content:
+                            yield {"type": "content", "text": content}
 
 class LMStudioProvider(ProviderBase):
     def summarize(self, text: str, cfg: Dict[str, Any]) -> str:
@@ -178,6 +216,43 @@ class LMStudioProvider(ProviderBase):
             return data["choices"][0]["message"]["content"].strip()
         except Exception:
             return json.dumps(data, ensure_ascii=False)
+    
+    def chat_stream(self, messages: List[Dict[str, str]], cfg: Dict[str, Any]):
+        base = cfg["endpoint"].rstrip("/")
+        model = cfg["model"]
+        temperature = cfg.get("temperature", 0.2)
+        max_tokens = cfg.get("max_tokens", 1024)
+        
+        url = f"{base}/chat/completions"
+        payload = {
+            "model": model,
+            "messages": messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+            "stream": True,
+        }
+        
+        with requests.post(url, json=payload, stream=True, timeout=120) as r:
+            r.raise_for_status()
+            for line in r.iter_lines():
+                if line:
+                    line_str = line.decode('utf-8')
+                    if line_str.startswith('data: '):
+                        data_str = line_str[6:]
+                        if data_str == '[DONE]':
+                            break
+                        try:
+                            data = json.loads(data_str)
+                            delta = data.get("choices", [{}])[0].get("delta", {})
+                            content = delta.get("content", "")
+                            if content:
+                                # Parse thinking tokens for Qwen3
+                                if "<think>" in content or "</think>" in content:
+                                    yield {"type": "thinking", "text": content}
+                                else:
+                                    yield {"type": "content", "text": content}
+                        except json.JSONDecodeError:
+                            continue
 
 # -------- Utilities ----------
 
@@ -292,217 +367,6 @@ def simulate_double_click():
     ms.click(mouse.Button.left, 2)
 
 
-# -------- Floating Panel (quick actions) ----------
-
-class PopupPanel(QtWidgets.QWidget):
-    resultReady = QtCore.Signal(str)
-
-    def __init__(self):
-        super().__init__()
-        self.setWindowFlags(
-            QtCore.Qt.Tool | QtCore.Qt.FramelessWindowHint | QtCore.Qt.WindowStaysOnTopHint
-        )
-        self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
-        self.setLayout(QtWidgets.QVBoxLayout())
-        self.layout().setContentsMargins(8,8,8,8)
-
-        self.btnSummary = QtWidgets.QPushButton("📝 Tóm tắt")
-        self.btnExplain = QtWidgets.QPushButton("🤔 Giải thích")
-        self.btnTranslate = QtWidgets.QPushButton("🌐 Dịch (vi↔en)")
-        self.btnRewrite = QtWidgets.QPushButton("✍️ Viết lại")
-        self.btnCustom = QtWidgets.QPushButton("⚙️ Prompt tùy biến")
-        self.btnClose = QtWidgets.QPushButton("❌ Đóng")
-
-        for b in (self.btnSummary, self.btnExplain, self.btnTranslate, self.btnRewrite, self.btnCustom, self.btnClose):
-            b.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-            self.layout().addWidget(b)
-
-        self.textOriginal = ""
-        self.callback = None
-        
-        # Kết nối signals một lần duy nhất trong __init__ để tránh kết nối nhiều lần
-        self.btnSummary.clicked.connect(lambda: self._do("summary"))
-        self.btnExplain.clicked.connect(lambda: self._do("explain"))
-        self.btnTranslate.clicked.connect(lambda: self._do("translate"))
-        self.btnRewrite.clicked.connect(lambda: self._do("rewrite"))
-        self.btnCustom.clicked.connect(lambda: self._do("custom"))
-        self.btnClose.clicked.connect(self.hide)
-
-    def show_at_cursor(self, pos: QtCore.QPoint, text: str, callback):
-        self.textOriginal = text
-        self.callback = callback
-        self.move(pos)
-        self.show()
-        self.activateWindow()
-        self.raise_()
-
-    def _do(self, action: str):
-        self.hide()
-        if self.callback:
-            self.callback(action, self.textOriginal)
-
-# -------- MCP Manager ----------
-
-class MCPManager:
-    """
-    Quản lý kết nối MCP servers (stdio) và gọi tools/resources.
-    """
-    def __init__(self, servers_cfg: List[Dict[str, Any]]):
-        self.servers_cfg = servers_cfg
-        self.exit_stack = AsyncExitStack()
-        self.sessions: Dict[str, ClientSession] = {}
-        self.loop = asyncio.new_event_loop()
-        self._thread = None
-
-    def start(self):
-        import threading
-        self._thread = threading.Thread(target=self._run_loop, daemon=True)
-        self._thread.start()
-
-    def _run_loop(self):
-        asyncio.set_event_loop(self.loop)
-        self.loop.run_until_complete(self._connect_all())
-
-    async def _connect_all(self):
-        for s in self.servers_cfg:
-            try:
-                params = StdioServerParameters(
-                    command=s["command"],
-                    args=s.get("args", []),
-                    env=s.get("env", None)
-                )
-                transport = await self.exit_stack.enter_async_context(stdio_client(params))
-                stdio, write = transport
-                session = await self.exit_stack.enter_async_context(ClientSession(stdio, write))
-                await session.initialize()
-                self.sessions[s["name"]] = session
-                tools_resp = await session.list_tools()
-                tool_names = [t.name for t in tools_resp.tools]
-                print(f"[MCP] Connected {s['name']} with tools: {tool_names}")
-            except Exception as e:
-                print(f"[MCP] Failed to connect {s.get('name')}: {e}")
-
-    def list_tools(self, server_name: str) -> List[str]:
-        sess = self.sessions.get(server_name)
-        if not sess: return []
-        fut = asyncio.run_coroutine_threadsafe(sess.list_tools(), self.loop)
-        resp = fut.result(timeout=5)
-        return [t.name for t in resp.tools]
-
-    def call_tool(self, server_name: str, tool_name: str, args: Dict[str, Any]) -> Any:
-        sess = self.sessions.get(server_name)
-        if not sess:
-            raise RuntimeError(f"MCP server {server_name} not connected")
-        async def _call():
-            return await sess.call_tool(tool_name, args)
-        fut = asyncio.run_coroutine_threadsafe(_call(), self.loop)
-        return fut.result(timeout=60)
-
-    def shutdown(self):
-        async def _shutdown():
-            await self.exit_stack.aclose()
-        if self.loop and self.loop.is_running():
-            asyncio.run_coroutine_threadsafe(_shutdown(), self.loop).result(timeout=5)
-            self.loop.call_soon_threadsafe(self.loop.stop)
-
-# -------- MCP Panel ----------
-
-class MCPPanel(QtWidgets.QDialog):
-    def __init__(self, mcp_manager: MCPManager, parent=None):
-        super().__init__(parent)
-        self.setWindowTitle("MCP – Chọn server & tool")
-        self.resize(720, 520)
-        self.mcp = mcp_manager
-        self.extra_context = ""
-
-        lay = QtWidgets.QVBoxLayout(self)
-        top = QtWidgets.QHBoxLayout(); lay.addLayout(top)
-        self.cmbServer = QtWidgets.QComboBox(); self.btnRefresh = QtWidgets.QPushButton("Làm mới")
-        top.addWidget(QtWidgets.QLabel("Server:")); top.addWidget(self.cmbServer, 1); top.addWidget(self.btnRefresh)
-
-        mid = QtWidgets.QSplitter(); mid.setOrientation(QtCore.Qt.Horizontal); lay.addWidget(mid, 1)
-        left = QtWidgets.QWidget(); leftLay = QtWidgets.QVBoxLayout(left)
-        self.lstTools = QtWidgets.QListWidget(); self.txtToolDesc = QtWidgets.QPlainTextEdit(); self.txtToolDesc.setReadOnly(True)
-        leftLay.addWidget(QtWidgets.QLabel("Tools:")); leftLay.addWidget(self.lstTools, 2)
-        leftLay.addWidget(QtWidgets.QLabel("Mô tả tool:")); leftLay.addWidget(self.txtToolDesc, 1)
-        right = QtWidgets.QWidget(); rightLay = QtWidgets.QVBoxLayout(right)
-        self.txtArgs = QtWidgets.QPlainTextEdit(); self.txtArgs.setPlaceholderText('Nhập đối số JSON, ví dụ: {"path": "C:/tmp/readme.txt"}')
-        self.btnRun = QtWidgets.QPushButton("▶ Chạy tool"); self.chkUseContext = QtWidgets.QCheckBox("Dùng kết quả làm ngữ cảnh tóm tắt")
-        self.txtResult = QtWidgets.QPlainTextEdit(); self.txtResult.setReadOnly(True)
-        rightLay.addWidget(QtWidgets.QLabel("Args (JSON):")); rightLay.addWidget(self.txtArgs, 2)
-        rowBtns = QtWidgets.QHBoxLayout(); rowBtns.addWidget(self.btnRun); rowBtns.addStretch(1); rowBtns.addWidget(self.chkUseContext)
-        rightLay.addLayout(rowBtns); rightLay.addWidget(QtWidgets.QLabel("Kết quả:")); rightLay.addWidget(self.txtResult, 2)
-        mid.addWidget(left); mid.addWidget(right); mid.setSizes([320, 400])
-        btns = QtWidgets.QHBoxLayout(); self.btnClose = QtWidgets.QPushButton("Đóng"); btns.addStretch(1); btns.addWidget(self.btnClose); lay.addLayout(btns)
-
-        self.btnRefresh.clicked.connect(self._reload_servers)
-        self.cmbServer.currentIndexChanged.connect(self._load_tools_for_server)
-        self.lstTools.currentItemChanged.connect(self._on_tool_selected)
-        self.btnRun.clicked.connect(self._run_selected_tool)
-        self.btnClose.clicked.connect(self.accept)
-
-        self._reload_servers()
-
-    def _reload_servers(self):
-        self.cmbServer.clear()
-        if not self.mcp or not self.mcp.sessions:
-            self.cmbServer.addItem("(chưa có server)")
-            self.cmbServer.setEnabled(False)
-            self.lstTools.clear(); self.txtToolDesc.setPlainText("")
-            return
-        self.cmbServer.setEnabled(True)
-        for name in self.mcp.sessions.keys():
-            self.cmbServer.addItem(name)
-        self._load_tools_for_server()
-
-    def _load_tools_for_server(self):
-        self.lstTools.clear()
-        server = self.cmbServer.currentText()
-        if not server or server == "(chưa có server)":
-            return
-        try:
-            tools = self.mcp.list_tools(server)
-            for t in tools:
-                self.lstTools.addItem(t)
-        except Exception as e:
-            QtWidgets.QMessageBox.warning(self, "MCP", f"Lỗi lấy tools: {e}")
-
-    def _on_tool_selected(self, cur: QtWidgets.QListWidgetItem, prev):
-        server = self.cmbServer.currentText(); name = cur.text() if cur else ""
-        self.txtToolDesc.setPlainText(f"Server: {server}\nTool: {name}\n\nNhập args JSON và bấm 'Chạy tool'.")
-        if name.lower() in ("read_file", "fs.read_file", "file.read"):
-            self.txtArgs.setPlainText('{"path": "C:/Users/YourUser/Documents/readme.txt"}')
-        elif name.lower() in ("write_file", "fs.write_file"):
-            self.txtArgs.setPlainText('{"path": "C:/tmp/out.txt", "content": "Xin chào MCP!"}')
-        else:
-            self.txtArgs.setPlainText("{}")
-
-    def _run_selected_tool(self):
-        server = self.cmbServer.currentText(); item = self.lstTools.currentItem()
-        if not server or not item:
-            QtWidgets.QMessageBox.information(self, "MCP", "Chọn server và tool trước.")
-            return
-        tool = item.text()
-        try:
-            args = json.loads(self.txtArgs.toPlainText() or "{}")
-        except Exception as e:
-            QtWidgets.QMessageBox.warning(self, "JSON lỗi", f"Không parse được args JSON: {e}")
-            return
-        try:
-            out = self.mcp.call_tool(server, tool, args)
-            if isinstance(out, (dict, list)):
-                pretty = json.dumps(out, ensure_ascii=False, indent=2)
-            else:
-                pretty = str(out)
-            self.txtResult.setPlainText(pretty)
-            if self.chkUseContext.isChecked():
-                self.extra_context = f"[MCP:{server}/{tool}]\n{pretty}"
-            else:
-                self.extra_context = ""
-        except Exception as e:
-            self.txtResult.setPlainText(f"❌ Lỗi chạy tool: {e}")
-            self.extra_context = ""
-
 # -------- Tray App ----------
 
 class TrayApp(QtWidgets.QSystemTrayIcon):
@@ -553,10 +417,8 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         actMcpPanel.triggered.connect(self._open_mcp_panel)
         actMcpTools.triggered.connect(self._show_mcp_tools)
 
-        self.setContextMenu(self.menu)
-        self._update_tooltip()
-        self.show()
-
+        self.activated.connect(self._on_tray_activated)
+        
         # MCP init
         self.mcp: Optional[MCPManager] = None
         if self.cfg.get("mcp", {}).get("enabled"):
@@ -571,6 +433,14 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         
         self.show_popup_signal.connect(self._show_popup_safe)
         self.app.aboutToQuit.connect(self._on_exit)
+
+        self.setContextMenu(self.menu)
+        self._update_tooltip()
+        self.show()
+
+    def _on_tray_activated(self, reason):
+        if reason == QtWidgets.QSystemTrayIcon.Trigger:
+            self.menu.popup(QtGui.QCursor.pos())
 
     def _on_exit(self):
         if self.input_listener:
@@ -595,17 +465,25 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         self.setToolTip(f"AI Summarizer\nProvider: {provider}\nShift+Right Click để tóm tắt")
     
     def _open_chat_window(self):
-        if not self.chat_window:
-            # Import here to avoid circular dependency
-            from chat_window import ChatWindow
-            self.chat_window = ChatWindow(
-                provider=self.provider,
-                mcp_manager=self.mcp,
-                config=self.cfg
-            )
-        self.chat_window.show()
-        self.chat_window.activateWindow()
-        self.chat_window.raise_()
+        logging.info("Attempting to open chat window...")
+        try:
+            if not self.chat_window:
+                logging.info("Instantiating ChatWindow...")
+                self.chat_window = ChatWindow(
+                    provider=self.provider,
+                    mcp_manager=self.mcp,
+                    config=self.cfg
+                )
+                logging.info("ChatWindow instantiated.")
+            
+            logging.info("Showing ChatWindow...")
+            self.chat_window.show()
+            self.chat_window.activateWindow()
+            self.chat_window.raise_()
+            logging.info("ChatWindow show command sent.")
+        except Exception as e:
+            logging.error(f"Failed to open chat window: {e}", exc_info=True)
+            QtWidgets.QMessageBox.critical(None, "Error", f"Failed to open chat window:\n{e}")
 
     def _make_provider(self) -> ProviderBase:
         if self.cfg["provider"] == "lmstudio":
@@ -717,9 +595,34 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
         w = QtWidgets.QDialog(); w.setWindowTitle("Kết quả AI")
         lay = QtWidgets.QVBoxLayout(w)
         txt = QtWidgets.QPlainTextEdit(); txt.setPlainText(content); lay.addWidget(txt)
-        btns = QtWidgets.QHBoxLayout(); btnCopy = QtWidgets.QPushButton("Copy"); btnSave = QtWidgets.QPushButton("Lưu…"); btnClose = QtWidgets.QPushButton("Đóng")
-        btns.addWidget(btnCopy); btns.addWidget(btnSave); btns.addWidget(btnClose); lay.addLayout(btns)
+        
+        btns = QtWidgets.QHBoxLayout()
+        btnChat = QtWidgets.QPushButton("💬 Chat")
+        btnMCP = QtWidgets.QPushButton("📎 MCP")
+        btnCopy = QtWidgets.QPushButton("Copy")
+        btnSave = QtWidgets.QPushButton("Lưu…")
+        btnClose = QtWidgets.QPushButton("Đóng")
+        
+        btns.addWidget(btnChat); btns.addWidget(btnMCP)
+        btns.addStretch(1)
+        btns.addWidget(btnCopy); btns.addWidget(btnSave); btns.addWidget(btnClose)
+        lay.addLayout(btns)
+        
+        def open_chat_with_context():
+            self._open_chat_window()
+            # Add context to chat
+            if self.chat_window:
+                self.chat_window.add_context(content)
+            w.accept()
+            
+        def open_mcp_from_result():
+            self._open_mcp_panel()
+            # w.accept() # Keep result open or close? User might want to use tool then check result again. Keep open.
+
+        btnChat.clicked.connect(open_chat_with_context)
+        btnMCP.clicked.connect(open_mcp_from_result)
         btnCopy.clicked.connect(lambda: self._copy_to_clipboard(txt.toPlainText()))
+        
         def save_file():
             default_name = f"summary_{datetime.datetime.now().strftime('%d_%m_%Y_%H_%M')}.txt"
             path, _ = QtWidgets.QFileDialog.getSaveFileName(w, "Lưu kết quả", default_name, "Text (*.txt)")
@@ -727,7 +630,7 @@ class TrayApp(QtWidgets.QSystemTrayIcon):
                 content_with_date = f"Date: {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')}\n\n{txt.toPlainText()}"
                 Path(path).write_text(content_with_date, encoding="utf-8")
         btnSave.clicked.connect(save_file); btnClose.clicked.connect(w.accept)
-        w.resize(640, 420); w.exec()
+        w.resize(700, 500); w.exec()
 
     def _copy_to_clipboard(self, text: str):
         cb = QtWidgets.QApplication.clipboard(); cb.setText(text)

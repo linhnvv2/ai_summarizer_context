@@ -1,151 +1,404 @@
-2025-11-26 23:27:00,382 - Using proactor: IocpProactor
-2025-11-26 23:27:05,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:06,667 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:07,299 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:09,787 - Win key pressed: Key.cmd
-2025-11-26 23:27:10,103 - Win key released: Key.cmd
-2025-11-26 23:27:15,219 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:19,955 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:21,219 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:21,539 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:24,659 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:32,235 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:33,043 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:37,499 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:37,620 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:27:40,935 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
-2025-11-26 23:27:51,507 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:55,259 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:55,339 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:27:56,907 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:27:57,669 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
-2025-11-26 23:28:05,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:07,563 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:08,539 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:11,043 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:11,163 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:28:13,707 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
-2025-11-26 23:28:17,163 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:24,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:24,332 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:28:26,527 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
-2025-11-26 23:28:38,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:41,611 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:42,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:55,203 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:28:55,359 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:28:57,824 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
-2025-11-26 23:29:17,539 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:19,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:21,467 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:23,379 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:24,203 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:25,819 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:31,475 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:31,578 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:29:33,595 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
-2025-11-26 23:29:46,811 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:47,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:51,076 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:53,427 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:55,059 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:56,307 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:57,091 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:29:58,139 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:00,595 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:01,739 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:03,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:04,651 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:06,107 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:07,315 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:08,868 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:12,891 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:14,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:14,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:15,651 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:17,091 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:18,859 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:20,651 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:24,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:27,331 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:28,763 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:30,835 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:32,323 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:34,588 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:36,588 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:39,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:40,107 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:40,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:40,963 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:41,484 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:42,923 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:44,292 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:45,260 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:46,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:47,371 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:48,107 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:49,755 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:51,459 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:52,347 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:52,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:53,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:55,043 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:56,107 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:56,907 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:58,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:30:59,315 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:00,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:00,988 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:03,193 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:03,198 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:05,171 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:06,377 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:06,393 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:07,125 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:07,126 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:08,995 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:11,195 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:12,276 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:12,380 - Starting new HTTP connection (1): 127.0.0.1:1234
-2025-11-26 23:31:24,027 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:25,931 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:27,907 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:29,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:30,411 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:31,236 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:32,826 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:32,829 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:35,508 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:37,108 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:37,124 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:38,131 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:38,241 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:31:39,368 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
-2025-11-26 23:31:45,563 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:46,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:48,355 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:49,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:50,691 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:51,611 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:52,107 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:52,307 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:52,691 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:31:59,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:01,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:01,811 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:03,741 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:03,758 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:05,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:07,424 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:07,425 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:09,224 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:09,225 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:11,059 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:11,194 - Starting new HTTP connection (1): 127.0.0.1:11434
-2025-11-26 23:32:12,539 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1624
-2025-11-26 23:32:19,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:20,227 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:21,812 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:23,483 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:25,619 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
-2025-11-26 23:32:26,763 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:25:52,240 - Using proactor: IocpProactor
+2025-11-28 20:25:52,241 - Starting MCPManager...
+2025-11-28 20:25:52,241 - [MCP] Connecting to filesystem...
+2025-11-28 20:25:53,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:25:54,175 - [MCP] Connected filesystem with tools: ['read_file', 'read_text_file', 'read_media_file', 'read_multiple_files', 'write_file', 'edit_file', 'create_directory', 'list_directory', 'list_directory_with_sizes', 'directory_tree', 'move_file', 'search_files', 'get_file_info', 'list_allowed_directories']
+2025-11-28 20:25:54,611 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:25:55,372 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:25:59,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:25:59,996 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:26:05,627 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:07,219 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:09,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:12,675 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:12,848 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 1529
+2025-11-28 20:26:15,484 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:15,612 - Attempting to open chat window...
+2025-11-28 20:26:15,613 - Instantiating ChatWindow...
+2025-11-28 20:26:15,613 - ChatWindow.__init__ started
+2025-11-28 20:26:15,616 - ChatWindow instantiated.
+2025-11-28 20:26:15,616 - Showing ChatWindow...
+2025-11-28 20:26:15,634 - ChatWindow show command sent.
+2025-11-28 20:26:18,267 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:19,979 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:21,436 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:26:23,059 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:23,574 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 631
+2025-11-28 20:26:24,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:25,827 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:30,942 - [MCP] Error listing tools for filesystem: 
+Traceback (most recent call last):
+  File "mcp_manager.py", line 57, in list_tools
+  File "concurrent\futures\_base.py", line 458, in result
+TimeoutError
+2025-11-28 20:26:32,723 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:35,946 - [MCP] Error listing tools for filesystem: 
+Traceback (most recent call last):
+  File "mcp_manager.py", line 57, in list_tools
+  File "concurrent\futures\_base.py", line 458, in result
+TimeoutError
+2025-11-28 20:26:39,211 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:40,019 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:50,181 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:26:52,155 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:26:55,754 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 977
+2025-11-28 20:27:02,651 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:03,476 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:07,451 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:08,347 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:10,467 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:12,635 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:14,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:16,411 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:18,091 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:20,123 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:20,708 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:25,595 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:25,729 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:27:27,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:32,483 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:35,115 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:37,123 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:37,826 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 1502
+2025-11-28 20:27:38,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:39,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:40,940 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:41,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:42,971 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:45,835 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:45,996 - Attempting to open chat window...
+2025-11-28 20:27:45,996 - Showing ChatWindow...
+2025-11-28 20:27:46,021 - ChatWindow show command sent.
+2025-11-28 20:27:49,499 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:51,107 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:52,507 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:53,027 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:27:56,626 - [MCP] Error listing tools for filesystem: 
+Traceback (most recent call last):
+  File "mcp_manager.py", line 57, in list_tools
+  File "concurrent\futures\_base.py", line 458, in result
+TimeoutError
+2025-11-28 20:27:59,147 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:01,371 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:01,635 - [MCP] Error listing tools for filesystem: 
+Traceback (most recent call last):
+  File "mcp_manager.py", line 57, in list_tools
+  File "concurrent\futures\_base.py", line 458, in result
+TimeoutError
+2025-11-28 20:28:03,979 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:04,811 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:06,603 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:07,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:08,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:09,475 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:10,531 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:12,511 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:28:15,635 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:18,060 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 630
+2025-11-28 20:28:18,499 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:20,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:21,675 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:22,451 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:24,171 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:26,475 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:32,307 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:36,075 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:37,899 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:38,459 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:39,027 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:40,339 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:28:42,701 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 637
+2025-11-28 20:28:45,963 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:46,747 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:51,442 - Using proactor: IocpProactor
+2025-11-28 20:28:51,443 - Starting MCPManager...
+2025-11-28 20:28:51,443 - [MCP] Connecting to filesystem...
+2025-11-28 20:28:51,635 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:52,427 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:53,131 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:53,321 - [MCP] Connected filesystem with tools: ['read_file', 'read_text_file', 'read_media_file', 'read_multiple_files', 'write_file', 'edit_file', 'create_directory', 'list_directory', 'list_directory_with_sizes', 'directory_tree', 'move_file', 'search_files', 'get_file_info', 'list_allowed_directories']
+2025-11-28 20:28:55,763 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:56,683 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:59,820 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:28:59,964 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:29:02,171 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:14,523 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:15,579 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:16,132 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:17,427 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:22,664 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 2676
+2025-11-28 20:29:26,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:28,675 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:28,781 - Attempting to open chat window...
+2025-11-28 20:29:28,781 - Instantiating ChatWindow...
+2025-11-28 20:29:28,781 - ChatWindow.__init__ started
+2025-11-28 20:29:28,786 - ChatWindow instantiated.
+2025-11-28 20:29:28,786 - Showing ChatWindow...
+2025-11-28 20:29:28,806 - ChatWindow show command sent.
+2025-11-28 20:29:29,683 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:31,212 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:29:33,003 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:29:38,915 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:10,411 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:16,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:17,643 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:26,739 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:28,747 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:28,753 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 5197
+2025-11-28 20:30:33,836 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:33,995 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:39,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:30:41,291 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:31:17,748 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:31:18,387 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:18,047 - Using proactor: IocpProactor
+2025-11-28 20:37:18,049 - Starting MCPManager...
+2025-11-28 20:37:18,049 - [MCP] Connecting to filesystem...
+2025-11-28 20:37:19,427 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:20,085 - [MCP] Connected filesystem with tools: ['read_file', 'read_text_file', 'read_media_file', 'read_multiple_files', 'write_file', 'edit_file', 'create_directory', 'list_directory', 'list_directory_with_sizes', 'directory_tree', 'move_file', 'search_files', 'get_file_info', 'list_allowed_directories']
+2025-11-28 20:37:22,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:23,069 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:37:27,715 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:29,131 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:31,235 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:33,019 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:34,787 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:36,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:38,187 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:39,947 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:41,683 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:42,034 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 2385
+2025-11-28 20:37:45,331 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:45,404 - Attempting to open chat window...
+2025-11-28 20:37:45,404 - Instantiating ChatWindow...
+2025-11-28 20:37:45,404 - ChatWindow.__init__ started
+2025-11-28 20:37:45,411 - ChatWindow instantiated.
+2025-11-28 20:37:45,411 - Showing ChatWindow...
+2025-11-28 20:37:45,435 - ChatWindow show command sent.
+2025-11-28 20:37:46,371 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:48,051 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:37:48,077 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-11-28 20:37:52,564 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:54,667 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:56,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:37:57,971 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:11,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:16,365 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:38:16,379 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-11-28 20:38:21,475 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:22,055 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:25,105 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:26,611 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:27,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:34,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:38:52,991 - Starting new HTTP connection (1): 127.0.0.1:1234
+2025-11-28 20:38:53,019 - http://127.0.0.1:1234 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-11-28 20:39:12,547 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:14,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:16,003 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:21,475 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:28,507 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:33,139 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:33,867 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:36,491 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:38,283 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:38,835 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:41,739 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:45,019 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:46,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:48,563 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:50,651 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:52,211 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:53,755 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:54,708 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:57,867 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:39:58,027 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:40:00,683 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:01,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:02,715 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:03,275 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:03,571 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:04,243 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:04,643 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:05,219 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:05,708 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:06,420 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:07,123 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:08,315 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:08,775 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-28 20:40:10,643 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:10,772 - Attempting to open chat window...
+2025-11-28 20:40:10,772 - Showing ChatWindow...
+2025-11-28 20:40:10,796 - ChatWindow show command sent.
+2025-11-28 20:40:12,491 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:14,070 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:40:14,094 - http://127.0.0.1:11434 "POST /chat/completions HTTP/1.1" 404 18
+2025-11-28 20:40:14,094 - Chat stream error: 404 Client Error: Not Found for url: http://127.0.0.1:11434/chat/completions
+Traceback (most recent call last):
+  File "chat_window.py", line 187, in _send_message
+  File "app.py", line 236, in chat_stream
+  File "requests\models.py", line 1026, in raise_for_status
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://127.0.0.1:11434/chat/completions
+2025-11-28 20:40:19,219 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:20,795 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:22,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:23,683 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:24,651 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:26,034 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:40:26,046 - http://127.0.0.1:11434 "POST /chat/completions HTTP/1.1" 404 18
+2025-11-28 20:40:26,047 - Chat stream error: 404 Client Error: Not Found for url: http://127.0.0.1:11434/chat/completions
+Traceback (most recent call last):
+  File "chat_window.py", line 187, in _send_message
+  File "app.py", line 236, in chat_stream
+  File "requests\models.py", line 1026, in raise_for_status
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://127.0.0.1:11434/chat/completions
+2025-11-28 20:40:27,515 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:34,147 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:37,939 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:38,923 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:41,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:42,619 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:43,971 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:44,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:45,883 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:46,443 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:47,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:47,743 - [MCP] Error listing tools for filesystem: 
+Traceback (most recent call last):
+  File "mcp_manager.py", line 57, in list_tools
+  File "concurrent\futures\_base.py", line 458, in result
+TimeoutError
+2025-11-28 20:40:49,147 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:49,595 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:50,139 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:52,759 - [MCP] Error listing tools for filesystem: 
+Traceback (most recent call last):
+  File "mcp_manager.py", line 57, in list_tools
+  File "concurrent\futures\_base.py", line 458, in result
+TimeoutError
+2025-11-28 20:40:53,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:54,403 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:54,891 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:55,739 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:57,603 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:40:58,419 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:03,521 - Using proactor: IocpProactor
+2025-11-28 20:41:03,522 - Starting MCPManager...
+2025-11-28 20:41:03,522 - [MCP] Connecting to filesystem...
+2025-11-28 20:41:04,499 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:05,323 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:05,421 - [MCP] Connected filesystem with tools: ['read_file', 'read_text_file', 'read_media_file', 'read_multiple_files', 'write_file', 'edit_file', 'create_directory', 'list_directory', 'list_directory_with_sizes', 'directory_tree', 'move_file', 'search_files', 'get_file_info', 'list_allowed_directories']
+2025-11-28 20:41:06,403 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:07,691 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:09,091 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:10,675 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:11,738 - Win key pressed: Key.cmd
+2025-11-28 20:41:12,588 - Win key released: Key.cmd
+2025-11-28 20:41:12,843 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:16,667 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:16,812 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:41:21,387 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:23,091 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:24,459 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-28 20:41:27,227 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:27,372 - Attempting to open chat window...
+2025-11-28 20:41:27,372 - Instantiating ChatWindow...
+2025-11-28 20:41:27,372 - ChatWindow.__init__ started
+2025-11-28 20:41:27,379 - ChatWindow instantiated.
+2025-11-28 20:41:27,379 - Showing ChatWindow...
+2025-11-28 20:41:27,409 - ChatWindow show command sent.
+2025-11-28 20:41:28,475 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:30,320 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:41:33,186 - http://127.0.0.1:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-11-28 20:41:37,859 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:40,411 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:40,755 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:42,013 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:41:42,500 - http://127.0.0.1:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-11-28 20:41:45,795 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:46,699 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:51,195 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:41:54,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:03,125 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:42:03,891 - http://127.0.0.1:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-11-28 20:42:10,123 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:10,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:11,587 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:12,027 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:12,363 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:13,387 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:13,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:15,943 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:42:16,324 - http://127.0.0.1:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-11-28 20:42:25,291 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:26,283 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:27,917 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:42:28,394 - http://127.0.0.1:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-11-28 20:42:30,707 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:32,636 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:33,835 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:36,067 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:39,315 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:39,523 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:41,155 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:42,243 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:44,043 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:46,083 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:46,923 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:49,531 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:51,171 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:54,611 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:42:54,742 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:42:57,618 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 1438
+2025-11-28 20:43:00,715 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:03,035 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:03,164 - Attempting to open chat window...
+2025-11-28 20:43:03,164 - Showing ChatWindow...
+2025-11-28 20:43:03,184 - ChatWindow show command sent.
+2025-11-28 20:43:04,803 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:07,535 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:43:10,836 - http://127.0.0.1:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-11-28 20:43:11,299 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:13,763 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:15,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:16,515 - Click: Button.right, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:17,979 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:18,379 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:27,620 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:43:28,212 - http://127.0.0.1:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-11-28 20:43:31,555 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:33,299 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:33,747 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:37,242 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:37,379 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:43:39,179 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:40,803 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:41,683 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:43,779 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:43,880 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-28 20:43:45,307 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:47,339 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:47,444 - Attempting to open chat window...
+2025-11-28 20:43:47,444 - Showing ChatWindow...
+2025-11-28 20:43:47,463 - ChatWindow show command sent.
+2025-11-28 20:43:51,051 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:52,539 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:53,739 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:54,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:55,955 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:56,379 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:58,219 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:43:58,339 - Starting new HTTP connection (1): 127.0.0.1:11434
+2025-11-28 20:44:01,323 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:03,571 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:04,731 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:07,203 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:07,987 - http://127.0.0.1:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-11-28 20:44:08,875 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:14,683 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:16,387 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:18,050 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:21,219 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:22,379 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:25,026 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right
+2025-11-28 20:44:36,771 - Click: Button.left, Pressed: True, Mods: {'shift': False, 'ctrl': False, 'alt': False, 'win': False}, Target: ctrl+right

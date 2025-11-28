@@ -8,7 +8,7 @@
   },
   "lmstudio": {
     "endpoint": "http://127.0.0.1:1234/v1",
-    "model": "Meta-Llama-3.1-8B-Instruct-Q4_K_M",
+    "model": "ibm/granite-4-h-tiny",
     "temperature": 0.2,
     "max_tokens": 1024
   },
@@ -30,7 +30,7 @@
           "@modelcontextprotocol/server-filesystem"
         ],
         "env": {
-          "ROOT_PATH": "C:/Users/vL/Documents"
+          "ROOT_PATH": "C:\\Users\\vL\\Downloads"
         }
       }
     ]

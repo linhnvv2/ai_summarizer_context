@@ -6,9 +6,10 @@
 - **Tích hợp MCP**: chọn server/tool, chạy tool (filesystem, web, DB…), lấy kết quả làm **ngữ cảnh** trước khi tóm tắt.
 
 ## Tính năng
+- **Chat Window**: Chat với AI, hỗ trợ lịch sử hội thoại và tích hợp MCP tools thủ công.
 - Popup hành động cạnh con trỏ: Tóm tắt, Giải thích, Dịch, Viết lại, Prompt tuỳ biến.
-- Provider: **Ollama** (`/api/generate`) hoặc **LM Studio** (OpenAI-compatible `/v1/chat/completions`).
-- **MCP Panel**: liệt kê servers/tools, nhập args JSON, chạy tool và chèn kết quả vào prompt.
+- Provider: **Ollama** (`/api/generate` & `/api/chat`) hoặc **LM Studio** (OpenAI-compatible `/v1/chat/completions`).
+- **MCP Panel**: liệt kê servers/tools, nhập args JSON, chạy tool và chèn kết quả vào prompt/chat.
 - Bảo mật: Mặc định chỉ gọi endpoint **local** và MCP servers cục bộ.
 
 ## Yêu cầu hệ thống
@@ -92,6 +93,14 @@ Ví dụ **Filesystem server** qua `npx` (Node.js):
    - Chọn **server**, **tool**, nhập **args JSON** → **Chạy tool**.
    - Tick **“Dùng kết quả làm ngữ cảnh tóm tắt”** → **Đóng**.
    - Thực hiện tóm tắt như bước 3–4.
+6. **Sử dụng Chat Window**:
+   - Mở menu tray (chuột trái hoặc phải) → chọn **💬 Mở Chat**.
+   - Chat bình thường với AI.
+   - Để dùng MCP tools:
+     - Click nút **📎 MCP Tools** trong cửa sổ chat.
+     - Chọn tool và chạy → kết quả sẽ tự động thêm vào đoạn chat dưới dạng "Tool Result".
+     - AI sẽ dùng thông tin đó để trả lời câu hỏi tiếp theo của bạn.
+   - Các tính năng khác: Clear history, Export chat to .txt.
 
 ## Đóng gói .exe
 ```bash
