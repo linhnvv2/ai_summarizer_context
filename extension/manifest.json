@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome AI Agent",
+  "version": "1.0",
+  "description": "AI Summarizer & Automation Agent for Chrome",
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:11434/*",
+    "http://localhost:11434/*",
+    "http://127.0.0.1:1234/*",
+    "http://localhost:1234/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel.html"
+  },
+  "options_ui": {
+    "page": "src/options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/content_script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Open AI Chat"
+  }
+}
